@@ -1,1 +1,1 @@
-SH-able Docker container for test use
+SSH-able Docker container for test use
