@@ -7,7 +7,7 @@ https://hub.docker.com/r/kamatama41/ubuntu-sshd/
 $ container_id=$(docker run -d --rm --publish=2222:22 kamatama41/ubuntu-sshd)
 
 # Login via password (It's 'passw0rd')
-ssh ubuntu@localhost -p 2222
+$ ssh ubuntu@localhost -p 2222
 ubuntu@localhost's password: passw0rd
 
 # Login via keyfile (You can copy the private key from the container)
